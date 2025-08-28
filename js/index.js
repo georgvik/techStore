@@ -355,7 +355,7 @@ try {
 //   });
 // }
 function getPhone() {
-  fetch('../data.json')
+  fetch('https://api.escuelajs.co/api/v1/categories')
     .then(responce => {
       return responce.json();
     })
