@@ -1,0 +1,45 @@
+.modal-filter {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 375px;
+  height: 784px;
+  background: #f6f6f6;
+  border-radius: 8px;
+  padding: 16px;
+  //   display: flex;
+  //   flex-direction: row;
+  //   gap: 16px;
+  //   align-items: flex-start;
+  //   justify-content: flex-start;
+  //   flex-shrink: 0;
+
+  box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.modal-hiden {
+  display: none;
+  overflow: hidden;
+}
+.button-filter-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  stroke: #f6f6f6;
+  cursor: pointer;
+}
+.checkbox {
+  display: flex;
+  margin-bottom: 12px;
+}
+.title-modal-change {
+  margin-top: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #0c0c0c;
+}
+.checkbox-discription {
+  margin-left: 10px;
+}
+// .checkbox-value {
+//   display: flex;
+// }

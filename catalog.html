@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bookshelf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link href="/css/main.css" rel="stylesheet" />
+  </head>
+  <div>
+    <header class="header container">
+      <a href="index.html" class="header-titel-link"
+        ><span class="tech-title">tech</span
+        ><span class="store-title">store</span></a
+      >
+      <input type="text" class="header-input" />
+    </header>
+    <section class="container" id="phone-catalog">
+      <h2 class="title">Смартфони</h2>
+      <div class="catalog-filter">
+        <svg class="catalo-filter-svg" width="14px" height="12px">
+          <use href="./img/icon/symbol-defs.svg#icon-filter"></use>
+        </svg>
+        <p class="catalog-filter-title">Фільтри</p>
+      </div>
+      <div class="content-catalog">
+        <ul class="list-phone"></ul>
+      </div>
+    </section>
+    <footer class="container footer-container">
+      <ul class="footer-menu-list">
+        <li>
+          <a href="./index.html" class="footer-menu-link"
+            ><div class="footer-menu-item">
+              <svg class="footer-menu-img" width="20px" height="22px">
+                <use href="./img/icon/symbol-defs.svg#icon-home"></use>
+              </svg>
+              <p>Головна</p>
+            </div></a
+          >
+        </li>
+        <li>
+          <a href="" class="footer-menu-link"
+            ><div class="footer-menu-item">
+              <svg class="footer-menu-img" width="26px" height="20px">
+                <use href="./img/icon/symbol-defs.svg#icon-catalog"></use>
+              </svg>
+              <p>Каталог</p>
+            </div></a
+          >
+        </li>
+        <li>
+          <a href="./shoping-cart.html" class="footer-menu-link"
+            ><div class="footer-menu-item">
+              <svg class="footer-menu-img" width="22px" height="20px">
+                <use href="./img/icon/symbol-defs.svg#icon-basket"></use>
+              </svg>
+              <p>Кошик</p>
+            </div></a
+          >
+        </li>
+        <li>
+          <a href="" class="footer-menu-link"
+            ><div class="footer-menu-item">
+              <svg class="footer-menu-img" width="20px" height="20px">
+                <use href="./img/icon/symbol-defs.svg#icon-profile"></use>
+              </svg>
+              <p>Профіль</p>
+            </div></a
+          >
+        </li>
+      </ul>
+    </footer>
+    <div class="modal-filter modal-hiden">
+      <svg class="button-filter-close" width="20px" height="20px">
+        <use href="./img/icon/symbol-defs.svg#icon-cancel-circle"></use>
+      </svg>
+      <p class="title-modal-change">Ціна, ₴</p>
+      <div class="modal-filter-category">
+        <input type="text" />
+        ---------
+        <input type="text" />
+        <p class="title-modal-change">Вбудована пам'ять</p>
+        <div class="checkbox" >
+        <label>
+          <input type="checkbox" name="memory" id="check-memory"  >
+          <span class="checkbox-value">512Гб</span>
+        </label>
+        </div>
+        <div class="checkbox" >
+        <label>
+          <input type="checkbox" name="memory" id="check" />
+          256Гб
+        </label></div>
+        <div class="checkbox" >
+        <label>
+          <input type="checkbox" name="memory" id="check" value="128" />
+          128Гб
+        </label></div>
+      </div>
+      <p class="title-modal-change">Оперативна пам`ять</p>
+      <div class="checkbox" >
+        <label >
+        <input type="checkbox" nam="ram" id="check-ram" value="12"/>
+        12Гб
+        </label>
+      </div>
+      <div class="checkbox" >
+        <label>
+        <input type="checkbox" nam="ram" id="check" value="8"/>
+        8Гб</label>
+      </div>
+      <div class="checkbox" >
+        <label>
+        <input type="checkbox" nam="ram" id="check" value="4"/>
+        4Гб</label>
+      </div>
+      <p class="title-modal-change">Бренд</p>
+      <div class="checkbox" >
+        <label>
+        <input type="checkbox" name="brand" id="check-brand" value="apple"/>
+        Apple</label>
+      </div>
+      <div class="checkbox" >
+        <label>
+        <input type="checkbox" name="brand" id="check" value="motorola"/>
+        Motorola</label>
+      </div>
+      <div class="checkbox" >
+        <label>
+        <input type="checkbox" name="brand" id="check" value="samsung"/>
+        Samsung</label>
+      </div>
+       <p class="title-modal-change">Кількість ядер</p>
+    <div class="checkbox" >
+      <label>
+      <input type="checkbox" name="core" id="check-core" value="10"/>
+      10</label>
+    </div>
+    <div class="checkbox" >
+      <label>
+      <input type="checkbox" name="core" id="check" value="8"/>
+      8</label>
+    </div>
+    <div class="checkbox" >
+      <label>
+      <input type="checkbox" name="core" id="check"  value="6"/>
+      6</label>
+    </div>
+  </div> 
+    <script src="./js/catalog.js" type="module"></script>
+  </body>
+</html>

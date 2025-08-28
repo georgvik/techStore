@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TechStore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link href="/css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header container">
+      <a href="index.html" class="header-titel-link"
+        ><span class="tech-title">tech</span
+        ><span class="store-title">store</span></a
+      >
+      <input type="text" class="header-input" />
+    </header>
+    <main class="container" id="catalog-phone">
+      <div class="slider">
+        <div class="slider-block__div">
+          <div class="slider-block">
+            <img src="./img/slide1.png" alt="" class="slider-img" />
+            <img src="./img/slide2.png" alt="" class="slider-img" />
+            <img src="./img/slide3.png" alt="" class="slider-img" />
+          </div>
+        </div>
+      </div>
+      <div>
+        <button class="slider-prev">PREV</button>
+        <button class="slider-next">NEXT</button>
+      </div>
+      <h2 class="catalog-title-all">Каталог</h2>
+      <div class="catalog">
+        <ul class="catalog-list">
+          <li>
+            <a href="./catalog.html" class="link-catalog">
+              <div class="catalog-link-div">
+                <div class="catalog-img-div">
+                  <img src="./img/catalog_menu/smartphone-menu.png" alt="" />
+                </div>
+                <p class="catalog-title">Смартфони</p>
+              </div></a
+            >
+          </li>
+          <li>
+            <a href="./catalog.html" class="link-catalog">
+              <div class="catalog-link-div">
+                <div class="catalog-img-div">
+                  <img src="./img/catalog_menu/akustika.png" alt="" />
+                </div>
+                <p class="catalog-title">Колонки</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="./catalog.html" class="link-catalog">
+              <div class="catalog-link-div">
+                <div class="catalog-img-div">
+                  <img src="./img/catalog_menu/smartphone-menu.png" alt="" />
+                </div>
+                <p class="catalog-title">Комп'ютери</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="action">
+        <h3 class="action-title">Акції</h3>
+        <ul class="action-list"></ul>
+      </div>
+    </main>
+    <footer class="container footer-container">
+      <ul class="footer-menu-list">
+        <li>
+          <a href="./index.html" class="footer-menu-link"
+            ><div class="footer-menu-item">
+              <svg class="footer-menu-img" width="20px" height="22px">
+                <use href="./img/icon/symbol-defs.svg#icon-home"></use>
+              </svg>
+              <p>Головна</p>
+            </div></a
+          >
+        </li>
+        <li>
+          <a href="./catalog.html" class="footer-menu-link"
+            ><div class="footer-menu-item">
+              <svg class="footer-menu-img" width="26px" height="20px">
+                <use href="./img/icon/symbol-defs.svg#icon-catalog"></use>
+              </svg>
+              <p>Каталог</p>
+            </div></a
+          >
+        </li>
+        <li>
+          <a href="./shoping-cart.html" class="footer-menu-link"
+            ><div class="footer-menu-item">
+              <svg class="footer-menu-img" width="22px" height="20px">
+                <use href="./img/icon/symbol-defs.svg#icon-basket"></use>
+              </svg>
+              <p>Кошик</p>
+            </div></a
+          >
+        </li>
+        <li>
+          <a href="" class="footer-menu-link"
+            ><div class="footer-menu-item">
+              <svg class="footer-menu-img" width="20px" height="20px">
+                <use href="./img/icon/symbol-defs.svg#icon-profile"></use>
+              </svg>
+              <p>Профіль</p>
+            </div></a
+          >
+        </li>
+      </ul>
+    </footer>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
