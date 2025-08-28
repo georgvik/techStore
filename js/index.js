@@ -355,7 +355,7 @@ try {
 //   });
 // }
 function getPhone() {
-  fetch('/data.json')
+  fetch('../data.json')
     .then(responce => {
       return responce.json();
     })
